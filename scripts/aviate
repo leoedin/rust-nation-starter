@@ -15,4 +15,4 @@ fi
 
 HOST="${1:-localhost}"
 
-curl http://$HOST:3000/nudge --json "\"$2\""
+curl http://$HOST:3000/nudge -H "Content-Type: application/json" --data "\"$2\""
