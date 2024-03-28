@@ -5,3 +5,4 @@ ssh hack@192.168.50.33
 # ssh-copy-id hack@192.168.50.33
 
 # on the pi - cargo run --release
+# pass breakup-reopen
